@@ -1,0 +1,23 @@
+
+
+.contenedor button{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    font-family:fantasy;
+    font-size:large;
+}
+
+.contenedor button:hover{
+    background-color: green;
+    color:white;
+}
+
+.contenedor button::before {
+    content: "Pasa por encima";
+}
+
+.contenedor button:hover::before{
+    display: block;
+    content: "¡Hecho!";
+}
